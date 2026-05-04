@@ -26,6 +26,6 @@ export const onRenderBody: GatsbySSR["onRenderBody"] = ({ setHeadComponents }) =
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Manrope:wght@300;400;500;600&display=swap"
     />,
-    <link key="favicon" rel="icon" href="/favicon.svg" type="image/svg+xml" />,
+    <link key="favicon" rel="icon" href="/favicon.png" type="image/png" />,
   ]);
 };
