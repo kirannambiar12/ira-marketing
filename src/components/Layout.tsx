@@ -1,4 +1,6 @@
 import * as React from "react";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -10,6 +12,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
         Skip to content
       </a>
       {children}
+      <Analytics framework="gatsby" />
+      <SpeedInsights framework="gatsby" />
     </div>
   );
 }
